@@ -2,16 +2,13 @@
 /////////////////////////////////////////////////
 // PukiWiki - Yet another WikiWikiWeb clone.
 //
-// $Id: region_wikiwikilike.inc.php,v 1.0 2019/09/26 15:50:00 xxxxx Exp $
+// $Id: region_wikiwikilike.inc.php,v 1.0 2019/09/26
 //
-// regionをWikiWiki風の見た目にカスタマイズしたものです。
+// region.inc.phpをWikiWiki風の見た目にカスタマイズしたものです。
 // プラグイン名をregionと同一にしているため、regionと同居できません。
-// ついでに
-// ・tableタグをやめてdivタグにしています。
-// ・展開後のブラケット(左に表示されるコの字)は削除しました。
-// ・変数名description→descriptionに統一しました。
-// ライセンス
-// GPL
+// ついでにtableタグをやめてdivタグにしています。
+//
+// license: GPL
 
 define('REGION_CONTAINER_STYLE', '
 	position:relative;
