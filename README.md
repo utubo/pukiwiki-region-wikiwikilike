@@ -8,5 +8,14 @@
 ## インストール
 `region.inc.php`と`endregion.inc.php`をpluginディレクトリに置いてください。
 
+## 使い方
+region.inc.phpと同じです`opened`,`closed`も対応してます。
+```
+#region(タイトル)
+本文
+#endregion
+```
+wikiwiki使用者が混乱しないよう、独自オプションを付ける予定はありません。(今の所)
+
 ## license
 GPL
